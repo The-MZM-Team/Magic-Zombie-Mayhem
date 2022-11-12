@@ -1,0 +1,15 @@
+# Roblox Studio files
+*.rbxlx
+*.rbxlx.lock
+*.rbxl
+*.rbxl.lock
+*.rbxmx
+*.rbxm
+
+# Wally
+Packages/
+wally.lock
+wally.toml
+
+# Selene
+roblox.toml
