@@ -1,0 +1,33 @@
+{
+    "name": "Magic Zombie Mayhem",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "$ignoreUnknownInstances": true,
+            "$path": "src/ReplicatedStorage",
+            "Packages": {
+                "$className": "Folder",
+                "$ignoreUnknownInstances": true,
+                "$path": "Packages"
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "$path": "src/ServerScriptService"
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterCharacterScripts": {
+                "$className": "StarterCharacterScripts",
+                "$ignoreUnknownInstances": true,
+                "$path": "src/StarterPlayer/StarterCharacterScripts"
+            },
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "$ignoreUnknownInstances": true,
+                "$path": "src/StarterPlayer/StarterPlayerScripts"
+            }
+        }
+    }
+}
