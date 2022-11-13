@@ -6,7 +6,7 @@ local Component = require(game:GetService("ReplicatedStorage").Packages.Componen
 local Controllers = ReplicatedStorage:WaitForChild("Controllers")
 local Components = ReplicatedStorage:WaitForChild("Components")
 
-local clockOffset = os.clock()
+local clockOffset: number = os.clock()
 
 Knit.AddControllers(Controllers)
 
