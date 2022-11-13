@@ -1,0 +1,6 @@
+{
+	"robloxLsp.workspace.maxPreload": 2000,
+	"robloxLsp.diagnostics.disable": [
+		"unused-local"
+	]
+}
