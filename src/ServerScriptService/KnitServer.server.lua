@@ -6,7 +6,7 @@ local Component = require(game:GetService("ReplicatedStorage").Packages.Componen
 local Services = ServerScriptService:WaitForChild("Services")
 local Components = ServerScriptService:WaitForChild("Components")
 
-local clockOffset = os.clock()
+local clockOffset: number = os.clock()
 
 Knit.AddServices(Services)
 
