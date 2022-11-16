@@ -8,24 +8,20 @@ on:
     branches:
     - main
 
-jobs: 
+jobs:
 
-  lint:
-    name: Selene Lint
-    runs-on: ubuntu-latest
-    steps: 
-    - name: Checkout code
-      uses: actions/checkout@v3
+    lint:
+        runs-on: ubuntu-latest
+        container: rust/rust:slim
 
-    - uses: Roblox/setup-foreman@v1
-      name: Install Foreman
-      with: 
-        version: "^1.0.0"
-        token: ${{ SECRETS.GITHUB_TOKEN }}
+        steps:
+            - uses: actions/checkout@v3
 
-    - name: Selene Lint
-      run: |
-        selene ./src
+            - name: Installing Selene
+              run: cargo install selene
+
+            - name: Selene Lint
+              run: selene ./src
 
   # style: 
   #   name: Styling
