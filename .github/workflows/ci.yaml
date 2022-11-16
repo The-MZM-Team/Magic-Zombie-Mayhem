@@ -28,10 +28,10 @@ jobs:
         run: mkdir -p Packages
 
       - name: Run Stylua
-        run: stylua --check
+        run: stylua src --check
 
       - name: Run Selene
-        run : selene
+        run : selene src
 
       - name: Build pack.rbxm
         run: rojo build -o pack.rbxm pack.project.json
@@ -83,10 +83,10 @@ jobs:
         run: foreman install
 
       - name: Run Stylua
-        run: stylua --check
+        run: stylua src --check
 
       - name: Run Selene
-        run : selene 
+        run : selene src
 
       - name: Install Dependencies
         run: wally install
