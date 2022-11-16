@@ -12,7 +12,7 @@ jobs:
 
   lint:
     runs-on: ubuntu-latest
-    container: rust/rust:slim
+    container: rust:slim
 
     steps:
         - uses: actions/checkout@v3
