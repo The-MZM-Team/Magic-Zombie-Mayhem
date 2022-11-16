@@ -8,20 +8,20 @@ on:
     branches:
     - main
 
-jobs:
+jobs: 
 
-    lint:
-        runs-on: ubuntu-latest
-        container: rust/rust:slim
+  lint:
+    runs-on: ubuntu-latest
+    container: rust/rust:slim
 
-        steps:
-            - uses: actions/checkout@v3
+    steps:
+        - uses: actions/checkout@v3
 
-            - name: Installing Selene
-              run: cargo install selene
+        - name: Installing Selene
+          run: cargo install selene
 
-            - name: Selene Lint
-              run: selene ./src
+        - name: Selene Lint
+          run: selene ./src
 
   # style: 
   #   name: Styling
