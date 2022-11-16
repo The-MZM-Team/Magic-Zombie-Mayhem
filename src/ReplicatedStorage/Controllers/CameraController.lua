@@ -10,9 +10,9 @@ local CameraController = Knit.CreateController({
 })
 
 function CameraController:KnitInit()
-	repeat
+	while not Players.LocalPlayer.Character do
 		task.wait()
-	until Players.LocalPlayer.Character
+	end
 
 	self._isometricCamera = IsometricCamera.new()
 end
