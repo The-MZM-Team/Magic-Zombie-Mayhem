@@ -11,7 +11,7 @@ on:
 jobs: 
 
   lint:
-    name: Lint
+    name: Selene Lint
     runs-on: ubuntu-latest
     steps: 
     - name: Checkout code
@@ -23,7 +23,7 @@ jobs:
         version: "^1.0.0"
         token: ${{ SECRETS.GITHUB_TOKEN }}
 
-    - name: Lint
+    - name: Selene Lint
       run: |
         selene ./src
 
