@@ -1,0 +1,19 @@
+[package]
+name = "ryanc/magiczombiemayhem"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Knit = "sleitnick/knit@1.4.7"
+Component = "sleitnick/component@1"
+Janitor = "howmanysmall/janitor@1"
+Timer = "sleitnick/timer@1"
+Signal = "sleitnick/signal@1"
+Promise = "evaera/promise@3"
+Comm = "sleitnick/comm@0"
+Roact = "roblox/roact@1"
+Flipper = "reselim/flipper@2"
+RoactFlipper = "reselim/roact-flipper@1"
+Llama = "freddylist/llama@1.1.1"
+Hooks = "kampfkarren/roact-hooks@0.3.0"
