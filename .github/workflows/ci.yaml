@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
     - main
-  
+
 jobs: 
 
   lint:
@@ -17,8 +17,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Install Foreman
     - uses: Roblox/setup-foreman@v1
+      name: Install Foreman
       with: 
         version: "^1.0.0"
         token: ${{ SECRETS.GITHUB_TOKEN }}
@@ -26,7 +26,6 @@ jobs:
     - name: Selene Lint
       run: |
         selene ./src
-
 
   # style: 
   #   name: Styling
