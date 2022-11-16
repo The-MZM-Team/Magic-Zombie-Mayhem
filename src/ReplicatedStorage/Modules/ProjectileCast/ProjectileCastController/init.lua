@@ -25,7 +25,7 @@ local function updateBullets(step: number)
 	ProjectileCastController.remove = {}
 	ProjectileCastController.destroy = {}
 
-	for iteration: number, projectile: DataTypes.Projectile in pairs(Projectile.getProjectileArray()) do
+	for iteration: number, projectile: DataTypes.Projectile in pairs(Projectile.projectileArray) do
 		-->>: How many times the bullet has been rendered
 		projectile._laps = projectile._laps + 1
 		-->>: Sets next position as current position then move it forward by velocity amount multiplied by the delta time

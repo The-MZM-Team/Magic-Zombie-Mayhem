@@ -50,8 +50,4 @@ function Projectile:Destroy()
 	self._projectile:Destroy()
 end
 
-function Projectile.getProjectileArray(): { DataTypes.Projectile }
-	return Projectile.projectileArray
-end
-
 return Projectile
