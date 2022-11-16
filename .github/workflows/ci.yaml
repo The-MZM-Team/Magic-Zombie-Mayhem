@@ -17,7 +17,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - uses: Roblox/setup-foreman@v3
+    - uses: Roblox/setup-foreman@v1
       name: Install Foreman
       with: 
         version: "^1.0.0"
