@@ -71,7 +71,7 @@ local function updateBullets(step: number)
 
 	-->>: Remove tagged bullets to prevent memory leaks
 	for i, iteration in pairs(ProjectileCastController.remove) do
-		table.remove(Projectile.getProjectileArray(), iteration - i + 1)
+		table.remove(Projectile.projectileArray, iteration - i + 1)
 	end
 end
 
