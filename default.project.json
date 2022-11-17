@@ -6,19 +6,19 @@
         "Workspace": {
 			"$className": "Workspace",
 			"$ignoreUnknownInstances": true,
-			"$path": "src/Workspace"
+			"$path": "Source/Workspace"
 		},
 
         "Lighting": {
 			"$className": "Lighting",
 			"$ignoreUnknownInstances": true,
-			"$path": "src/Lighting"
+			"$path": "Source/Lighting"
 		},
 
         "ReplicatedStorage": {
             "$className": "ReplicatedStorage",
             "$ignoreUnknownInstances": true,
-            "$path": "src/ReplicatedStorage",
+            "$path": "Source/ReplicatedStorage",
 
             "Submodules": {
                 "$className": "Folder",
@@ -34,7 +34,7 @@
         
         "ServerScriptService": {
             "$className": "ServerScriptService",
-            "$path": "src/ServerScriptService",
+            "$path": "Source/ServerScriptService",
 
             "Submodules": {
                 "$className": "Folder",
@@ -61,12 +61,12 @@
             "StarterCharacterScripts": {
                 "$className": "StarterCharacterScripts",
                 "$ignoreUnknownInstances": true,
-                "$path": "src/StarterPlayer/StarterCharacterScripts"
+                "$path": "Source/StarterPlayer/StarterCharacterScripts"
             },
             "StarterPlayerScripts": {
                 "$className": "StarterPlayerScripts",
                 "$ignoreUnknownInstances": true,
-                "$path": "src/StarterPlayer/StarterPlayerScripts"
+                "$path": "Source/StarterPlayer/StarterPlayerScripts"
             }
         }
     }

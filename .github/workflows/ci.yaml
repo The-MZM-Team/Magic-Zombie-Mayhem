@@ -21,4 +21,4 @@ jobs:
           run: cargo install selene
 
         - name: Selene Lint
-          run: selene ./src
+          run: selene ./Source
