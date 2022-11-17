@@ -9,6 +9,12 @@
 			"$path": "src/Workspace"
 		},
 
+        "Lighting": {
+			"$className": "Lighting",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/Lighting"
+		},
+
         "ReplicatedStorage": {
             "$className": "ReplicatedStorage",
             "$ignoreUnknownInstances": true,
