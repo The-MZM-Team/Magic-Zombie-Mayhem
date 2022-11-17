@@ -19,16 +19,35 @@
             "$className": "ReplicatedStorage",
             "$ignoreUnknownInstances": true,
             "$path": "src/ReplicatedStorage",
-            "Packages": {
+
+            "Submodules": {
                 "$className": "Folder",
-                "$ignoreUnknownInstances": true,
-                "$path": "Packages"
+                "Core": {
+                    "$className": "Folder",
+                    "Client": {
+                        "$className": "Folder",
+                        "$path": "Submodules/Core/Source/Client"
+                    }
+                }
             }
         },
+        
         "ServerScriptService": {
             "$className": "ServerScriptService",
-            "$path": "src/ServerScriptService"
+            "$path": "src/ServerScriptService",
+
+            "Submodules": {
+                "$className": "Folder",
+                "Core": {
+                    "$className": "Folder",
+                    "Server": {
+                        "$className": "Folder",
+                        "$path": "Submodules/Core/Source/Server"
+                    }
+                }
+            }
         },
+
         "StarterPlayer": {
             "$className": "StarterPlayer",
             "$properties": {

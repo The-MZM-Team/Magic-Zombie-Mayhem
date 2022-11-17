@@ -1,0 +1,3 @@
+[submodule "Submodules/Core"]
+	path = Submodules/Core
+	url = https://github.com/The-MZM-Team/MZM-Core
