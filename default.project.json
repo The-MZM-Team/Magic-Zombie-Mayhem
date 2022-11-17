@@ -31,6 +31,14 @@
         },
         "StarterPlayer": {
             "$className": "StarterPlayer",
+            "$properties": {
+                "LoadCharacterAppearance": false,
+                "CharacterWalkSpeed": 20,
+                "CharacterJumpPower": 0,
+                "CharacterUseJumpPower": false,
+				"EnableMouseLockOption": false
+			},
+            
             "StarterCharacterScripts": {
                 "$className": "StarterCharacterScripts",
                 "$ignoreUnknownInstances": true,
