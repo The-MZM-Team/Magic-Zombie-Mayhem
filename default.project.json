@@ -32,7 +32,7 @@
 
                 "Libraries": {
                     "$className": "Folder",
-                    "$path": "Submodules/Core/Lib"
+                    "$path": "Submodules/Core/Libraries"
                 }
             }
         },
