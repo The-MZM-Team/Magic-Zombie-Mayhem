@@ -24,10 +24,15 @@
                 "$className": "Folder",
                 "Core": {
                     "$className": "Folder",
-                    "Client": {
+                    "Source": {
                         "$className": "Folder",
                         "$path": "Submodules/Core/Source/Client"
                     }
+                },
+
+                "Packages": {
+                    "$className": "Folder",
+                    "$path": "Submodules/Core/Packages"
                 },
 
                 "Libraries": {
@@ -45,7 +50,7 @@
                 "$className": "Folder",
                 "Core": {
                     "$className": "Folder",
-                    "Server": {
+                    "Source": {
                         "$className": "Folder",
                         "$path": "Submodules/Core/Source/Server"
                     }
