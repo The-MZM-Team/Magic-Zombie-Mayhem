@@ -19,7 +19,7 @@ end
 
 function CameraController:KnitStart()
 	self._isometricCamera:setOriginPart(Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart"))
-	self._isometricCamera:setCameraKeybinds({ "Q", "E" })
+	self._isometricCamera:setCameraKeybinds({ "E", "R" })
 end
 
 return CameraController
