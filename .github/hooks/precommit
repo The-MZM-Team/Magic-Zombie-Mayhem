@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ `git symbolic-ref HEAD` == "refs/heads/main" ]]
+then
+    echo "You cannot commit in main!"
+    exit 1
+fi
