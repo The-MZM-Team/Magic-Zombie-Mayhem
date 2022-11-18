@@ -28,11 +28,6 @@
                         "$className": "Folder",
                         "$path": "Submodules/Core/Source/Client"
                     }
-                },
-
-                "Libraries": {
-                    "$className": "Folder",
-                    "$path": "Submodules/Core/Libraries"
                 }
             }
         },
