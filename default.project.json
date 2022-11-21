@@ -64,7 +64,7 @@
                 "LoadCharacterAppearance": false,
                 "CharacterWalkSpeed": 20,
                 "CharacterJumpPower": 0,
-                "CharacterUseJumpPower": false,
+                "CharacterUseJumpPower": true,
 				"EnableMouseLockOption": false
 			},
             
