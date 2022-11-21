@@ -1,3 +1,6 @@
 [submodule "Submodules/Core"]
 	path = Submodules/Core
 	url = https://github.com/The-MZM-Team/MZM-Core
+[submodule "Submodules/DebugTools"]
+	path = Submodules/DebugTools
+	url = https://github.com/The-MZM-Team/Debug-Tools
