@@ -1,3 +1,4 @@
+local CollectionService = game:GetService("CollectionService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local WindShake = require(ReplicatedStorage.Submodules.Libraries.WindShake)
@@ -16,6 +17,12 @@ local WindShakeController = Knit.CreateController({
 })
 
 function WindShakeController:KnitInit()
+	for _, trees: Model in pairs(workspace.IgnoreInstances.Map.Trees:GetChildren()) do
+		if trees:FindFirstChild("Leaves") then
+			CollectionService:AddTag(trees:FindFirstChild("Leaves"), "WindShake")
+		end
+	end
+
 	local linesDefaultSettings = {
 		Direction = WIND_DIRECTION,
 		Speed = WIND_SPEED,
