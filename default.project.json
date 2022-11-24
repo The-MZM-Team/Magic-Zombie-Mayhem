@@ -64,6 +64,7 @@
 
         "StarterPlayer": {
             "$className": "StarterPlayer",
+            
             "$properties": {
                 "LoadCharacterAppearance": false,
                 "CharacterWalkSpeed": 20,
