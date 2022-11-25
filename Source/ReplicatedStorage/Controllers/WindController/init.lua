@@ -6,10 +6,10 @@ local WindLines = require(ReplicatedStorage.Submodules.Libraries.WindShake.WindL
 local Knit = require(ReplicatedStorage.Submodules.Packages.Knit)
 
 local WIND_DIRECTION: Vector3 = Vector3.new(1, 0, 0.3)
-local WIND_SPEED: number = 25
-local WIND_POWER: number = 0.55
-local LINES_LIFETIME: number = 1.5
-local LINES_SPAWN_RATE: number = 5
+local WIND_SPEED: number = 15
+local WIND_POWER: number = 1
+local LINES_LIFETIME: number = 2
+local LINES_SPAWN_RATE: number = 8
 
 local WindShakeController = Knit.CreateController({
 	Name = "WindShakeController",
@@ -17,7 +17,7 @@ local WindShakeController = Knit.CreateController({
 })
 
 function WindShakeController:KnitInit()
-	for _, trees: Model in pairs(workspace.IgnoreInstances.Map.Trees:GetChildren()) do
+	for _, trees: Model in pairs(workspace.IgnoreInstances.Map.Trees:GetDescendants()) do
 		if trees:FindFirstChild("Leaves") then
 			CollectionService:AddTag(trees:FindFirstChild("Leaves"), "WindShake")
 		end

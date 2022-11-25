@@ -67,6 +67,8 @@
             
             "$properties": {
                 "LoadCharacterAppearance": false,
+                "HealthDisplayDistance": 0,
+                "NameDisplayDistance": 0,
                 "CharacterWalkSpeed": 20,
                 "CharacterJumpPower": 0,
                 "CharacterUseJumpPower": true,
@@ -83,6 +85,12 @@
                 "$ignoreUnknownInstances": true,
                 "$path": "Source/StarterPlayer/StarterPlayerScripts"
             }
+        },
+
+        "SoundService": {
+			"$className": "SoundService",
+			"$ignoreUnknownInstances": true,
+			"$path": "Source/SoundService"
         }
     }
 }
